@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SJTBKit'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = 'SJTBKit.'
 
 # This description is used to generate tags and improve search results.
@@ -46,19 +46,19 @@ end
 
 #s.subspec 'UI' do |ui|
 
-#       ui.prefix_header_file = 'SJTBKit/CoreClass/UI/SJTBKitUI.h'
-#       ui.source_files = 'SJTBKit/CoreClass/UI/**/**/*'
-#        ui.public_header_files = 'SJTBKit/CoreClass/UI/**/*.h'
+      ui.prefix_header_file = 'SJTBKit/CoreClass/UI/SJTBKitUI.h'
+      ui.source_files = 'SJTBKit/CoreClass/UI/**/**/*'
+      ui.public_header_files = 'SJTBKit/CoreClass/UI/**/*.h'
 #      #ui.dependency  'Masonry' , '~> 1.1.0'
 #     #ui.dependency  'SDWebImage' , '~> 4.2.3'
 
-#end
+end
 
 
-#s.subspec 'NET' do |net|
-#    net.public_header_files = 'SJTBKit/CoreClass/Net/SJTBKitNet.h'
-#     net.source_files = 'SJTBKit/CoreClass/Net/**/**/*'
-#end
+s.subspec 'NET' do |net|
+     net.public_header_files = 'SJTBKit/CoreClass/Net/SJTBKitNet.h'
+     net.source_files = 'SJTBKit/CoreClass/Net/**/**/*'
+end
 
 
 
