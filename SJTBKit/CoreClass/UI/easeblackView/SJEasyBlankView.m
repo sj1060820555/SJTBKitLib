@@ -25,27 +25,27 @@
 -(instancetype)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
     if (self) {
-//        [self.tipLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-//            
-//            make.centerX.offset(0);
-//            make.left.right.equalTo(self.imageView);
-//            make.top.mas_offset(frame.size.height * 0.2);
-//            
-//        }];
-//        
-//        [self.imageView mas_makeConstraints:^(MASConstraintMaker *make) {
-//            
-//            make.top.mas_equalTo(self.tipLabel.mas_bottom).offset(10);
-//            make.centerX.offset(0);
-//        }];
-//        
-//        [self.reloadBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-//            
-//            make.centerX.offset(0);
-//            make.top.mas_equalTo(self.imageView.mas_bottom).offset(10);
-//            make.left.right.equalTo(self.imageView);
-//            make.height.mas_equalTo(44);
-//        }];
+        [self.tipLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+            
+            make.centerX.offset(0);
+            make.left.right.equalTo(self.imageView);
+            make.top.mas_offset(frame.size.height * 0.2);
+            
+        }];
+//
+        [self.imageView mas_makeConstraints:^(MASConstraintMaker *make) {
+            
+            make.top.mas_equalTo(self.tipLabel.mas_bottom).offset(10);
+            make.centerX.offset(0);
+        }];
+        
+        [self.reloadBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+            
+            make.centerX.offset(0);
+            make.top.mas_equalTo(self.imageView.mas_bottom).offset(10);
+            make.left.right.equalTo(self.imageView);
+            make.height.mas_equalTo(44);
+        }];
     }
     return self;
 }

@@ -428,6 +428,7 @@
 		62122E4478C31A2314E7A079CF9583FE /* EXPMatchers+beIdenticalTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beIdenticalTo.h"; path = "Expecta/Matchers/EXPMatchers+beIdenticalTo.h"; sourceTree = "<group>"; };
 		65676B992079E38500F7F2DD /* SJEasyBlankView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJEasyBlankView.h; sourceTree = "<group>"; };
 		65676B9A2079E38500F7F2DD /* SJEasyBlankView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJEasyBlankView.m; sourceTree = "<group>"; };
+		65AFFDC02079FB6D0078AD0B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		6670140C853077A745F9833305D2076E /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		6823B17279DB38124EB488C3AAAA0C9F /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69D8AB1E028B57473A7DC063C8323F94 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
@@ -880,6 +881,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				65AFFDC02079FB6D0078AD0B /* PrefixHeader.pch */,
 				55834EE10171F54C6823C69FEBAF56CC /* Development Pods */,
 				066CB9169803BA2A1B80B24F5728D233 /* Frameworks */,
 				7B228B9A77C6BC1D98C18448D6493E90 /* Pods */,
@@ -1752,7 +1754,6 @@
 /* Begin XCBuildConfiguration section */
 		01A53E2722D5A457C41B4E3D46094074 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88971F4C71C527BE3A678BB9EE84F12B /* SDWebImage.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1781,7 +1782,6 @@
 		};
 		0E856C659AD8E4C09B9EC5557F7D727B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4B3DE31D61B476D418C32CDF165D901 /* Masonry.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1811,7 +1811,6 @@
 		};
 		18BF2C2EE18FF9387901C2038B1D504C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3CDBCA1B7A41CFF5111CFD1C29890B6 /* Specta.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1840,7 +1839,6 @@
 		};
 		1F2B05BDAA1F32F9845FBF35781F57DB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4B3DE31D61B476D418C32CDF165D901 /* Masonry.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1869,7 +1867,6 @@
 		};
 		2B35F169D2AF5647326A75DAE9D74081 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4E7CAA52B51A2AAFE266EBD7F90E128 /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1960,7 +1957,6 @@
 		};
 		4B996AFF58BEE13E836DFEEC4955E6FE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3CDBCA1B7A41CFF5111CFD1C29890B6 /* Specta.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2045,7 +2041,6 @@
 		};
 		82B3496240DCA857104A71FC50562B5C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4E7CAA52B51A2AAFE266EBD7F90E128 /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2075,7 +2070,6 @@
 		};
 		8491E79D9E83C259679A0AE1E681AA2C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBFE8D3A3B5083141408F7D2F15276EE /* Pods-SJTBKit_Tests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2109,7 +2103,6 @@
 		};
 		919198559376CA713C53E622F53D38E7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C9BB15D847EC615EB218D30A07C7552 /* Pods-SJTBKit_Example.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2142,7 +2135,6 @@
 		};
 		9597D36E7CCD2E06730E9DF0B0C81C8A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B3D6F249BAC32F4A3B218848F53F913 /* Expecta+Snapshots.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2171,7 +2163,6 @@
 		};
 		A3DEE97B930542BD08A94D565B5FCD2A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14E2077467F729A268EA7C4D0C4F7B18 /* Pods-SJTBKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2205,7 +2196,6 @@
 		};
 		C32A2B860FAB4960C7E591A3A8F31465 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E2DE8202B415F47257FC1B87A2AF15E /* Expecta.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2216,7 +2206,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Expecta/Expecta-prefix.pch";
+				GCC_PREFIX_HEADER = /Users/weibiaoli/Desktop/SJTBKit/Example/Pods/PrefixHeader.pch;
 				INFOPLIST_FILE = "Target Support Files/Expecta/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -2235,7 +2225,6 @@
 		};
 		CBE96484625AB0CF62CA195642D47346 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E77CA9E570F19DE9F96A16E1451A3E34 /* Pods-SJTBKit_Example.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2267,7 +2256,6 @@
 		};
 		FCAF4B4279A6749B079514FEFAAC9074 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B3D6F249BAC32F4A3B218848F53F913 /* Expecta+Snapshots.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2297,7 +2285,6 @@
 		};
 		FD6837E485879D0C2B6CB3D15ECB73B6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88971F4C71C527BE3A678BB9EE84F12B /* SDWebImage.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2327,7 +2314,6 @@
 		};
 		FD88F8B1E5A792FF8C0BC3B33047A1D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E2DE8202B415F47257FC1B87A2AF15E /* Expecta.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2338,7 +2324,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Expecta/Expecta-prefix.pch";
+				GCC_PREFIX_HEADER = /Users/weibiaoli/Desktop/SJTBKit/Example/Pods/PrefixHeader.pch;
 				INFOPLIST_FILE = "Target Support Files/Expecta/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
