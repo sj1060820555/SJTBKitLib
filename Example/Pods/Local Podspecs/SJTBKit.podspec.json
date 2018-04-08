@@ -1,0 +1,22 @@
+{
+  "name": "SJTBKit",
+  "version": "0.1.0",
+  "summary": "A short description of SJTBKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sj1060820555@163.com/SJTBKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sj1060820555@163.com": "sj1060820555@163.com"
+  },
+  "source": {
+    "git": "https://github.com/sj1060820555@163.com/SJTBKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SJTBKit/Classes/**/*"
+}

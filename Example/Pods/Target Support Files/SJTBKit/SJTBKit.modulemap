@@ -1,0 +1,6 @@
+framework module SJTBKit {
+  umbrella header "SJTBKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_SJTBKit_Example {
+  umbrella header "Pods-SJTBKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
