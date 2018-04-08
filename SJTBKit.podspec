@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SJTBKit'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'SJTBKit.'
 
 # This description is used to generate tags and improve search results.
@@ -38,32 +38,27 @@ s.subspec 'CoreClss' do |coreClass|
 
     coreClass.prefix_header_file = 'SJTBKit/CoreClass/SJTBKitHeader.h'
     coreClass.source_files = 'SJTBKit/CoreClass/**/**/*'
-   
+
     coreClass.dependency  'Masonry' , '~> 1.1.0'
     coreClass.dependency  'SDWebImage' , '~> 4.2.3'
 
 end
 
-s.subspec 'UI' do |ui|
+#s.subspec 'UI' do |ui|
 
-        ui.prefix_header_file = 'SJTBKit/CoreClass/UI/SJTBKitUI.h'
-        ui.source_files = 'SJTBKit/CoreClass/UI/**/**/*'
-        ui.public_header_files = 'SJTBKit/CoreClass/UI/**/*.h'
-        ui.dependency  'Masonry' , '~> 1.1.0'
-        #base.dependency  'FMDB', ' ~> 2.7.2'
-        ui.dependency  'SDWebImage' , '~> 4.2.3'
-#base.resource_bundles = {
-#     'SJTBKit' => ['SJCompmentThreeLib/Assets/*.png']
-#  }
-end
+#       ui.prefix_header_file = 'SJTBKit/CoreClass/UI/SJTBKitUI.h'
+#       ui.source_files = 'SJTBKit/CoreClass/UI/**/**/*'
+#        ui.public_header_files = 'SJTBKit/CoreClass/UI/**/*.h'
+#      #ui.dependency  'Masonry' , '~> 1.1.0'
+#     #ui.dependency  'SDWebImage' , '~> 4.2.3'
+
+#end
 
 
-s.subspec 'NET' do |net|
-      net.public_header_files = 'SJTBKit/CoreClass/Net/SJTBKitNet.h'
-      net.source_files = 'SJTBKit/CoreClass/Net/**/**/*'
-   #  net.prefix_header_file = 'SJCompmentThreeLib/ShareManager/shareHeader.h'
-   #  net.source_files = 'SJCompmentThreeLib/ShareManager/**/**/*'
-end
+#s.subspec 'NET' do |net|
+#    net.public_header_files = 'SJTBKit/CoreClass/Net/SJTBKitNet.h'
+#     net.source_files = 'SJTBKit/CoreClass/Net/**/**/*'
+#end
 
 
 
