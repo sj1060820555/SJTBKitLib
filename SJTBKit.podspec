@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SJTBKit'
-  s.version          = '0.1.9'
+  s.version          = '0.1.10'
   s.summary          = 'SJTBKit.'
 
 # This description is used to generate tags and improve search results.
@@ -49,7 +49,7 @@ s.subspec 'CoreClss' do |coreClass|
 
 end
 
-#s.subspec 'UI' do |ui|
+s.subspec 'UI' do |ui|
 
       ui.prefix_header_file = 'SJTBKit/CoreClass/UI/SJTBKitUI.h'
       ui.source_files = 'SJTBKit/CoreClass/UI/**/**/*'
