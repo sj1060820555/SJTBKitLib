@@ -9,13 +9,23 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - SJTBKit (0.1.0)
+  - Masonry (1.1.0)
+  - SDWebImage (4.2.3):
+    - SDWebImage/Core (= 4.2.3)
+  - SDWebImage/Core (4.2.3)
+  - SJTBKit (0.1.10):
+    - SJTBKit/CoreClss (= 0.1.10)
+  - SJTBKit/CoreClss (0.1.10):
+    - Masonry (~> 1.1.0)
+    - SDWebImage (~> 4.2.3)
   - Specta (1.0.7)
 
 DEPENDENCIES:
   - Expecta
   - Expecta+Snapshots
   - FBSnapshotTestCase
+  - Masonry
+  - SDWebImage
   - SJTBKit (from `../`)
   - Specta
 
@@ -27,9 +37,11 @@ SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   Expecta+Snapshots: dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  SJTBKit: 23109b182c91eb806a084b802cff806ea80e2fe8
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
+  SJTBKit: da669f78cf699f3b51b470bcd3eb1cbc462efdad
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
-PODFILE CHECKSUM: c0dc34e6c2bcc2d47a6a936ca953e9e0ec590c46
+PODFILE CHECKSUM: 607914f89afe818456a66337194f206343b3e971
 
 COCOAPODS: 1.3.1

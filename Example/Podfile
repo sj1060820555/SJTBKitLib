@@ -10,5 +10,8 @@ target 'SJTBKit_Example' do
     pod 'Expecta'
     pod 'FBSnapshotTestCase'
     pod 'Expecta+Snapshots'
+    pod 'Masonry'
+    pod 'SDWebImage'
+    
   end
 end

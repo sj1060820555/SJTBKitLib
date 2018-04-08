@@ -1,9 +1,9 @@
 {
   "name": "SJTBKit",
-  "version": "0.1.0",
-  "summary": "A short description of SJTBKit.",
+  "version": "0.1.10",
+  "summary": "SJTBKit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/sj1060820555@163.com/SJTBKit",
+  "homepage": "https://github.com/sj1060820555/SJTBKit.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,45 @@
     "sj1060820555@163.com": "sj1060820555@163.com"
   },
   "source": {
-    "git": "https://github.com/sj1060820555@163.com/SJTBKit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/sj1060820555/SJTBKitLib.git",
+    "tag": "0.1.10"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SJTBKit/Classes/**/*"
+  "default_subspecs": "CoreClss",
+  "subspecs": [
+    {
+      "name": "CoreClss",
+      "prefix_header_file": "SJTBKit/CoreClass/SJTBKitHeader.h",
+      "source_files": "SJTBKit/CoreClass/**/**/*",
+      "dependencies": {
+        "Masonry": [
+          "~> 1.1.0"
+        ],
+        "SDWebImage": [
+          "~> 4.2.3"
+        ]
+      }
+    },
+    {
+      "name": "UI",
+      "prefix_header_file": "SJTBKit/CoreClass/UI/SJTBKitUI.h",
+      "source_files": "SJTBKit/CoreClass/UI/**/**/*",
+      "public_header_files": "SJTBKit/CoreClass/UI/**/*.h",
+      "dependencies": {
+        "Masonry": [
+          "~> 1.1.0"
+        ],
+        "SDWebImage": [
+          "~> 4.2.3"
+        ]
+      }
+    },
+    {
+      "name": "NET",
+      "prefix_header_file": "SJTBKit/CoreClass/Net/SJTBKitNet.h",
+      "source_files": "SJTBKit/CoreClass/Net/**/**/*"
+    }
+  ]
 }

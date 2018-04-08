@@ -8,6 +8,8 @@
 
 #ifndef SJTBKitUI_h
 #define SJTBKitUI_h
+#import <Masonry/Masonry.h>
 
+#import "SJEasyBlankView.h"
 
 #endif /* SJTBKitUI_h */

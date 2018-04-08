@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SJTBKit'
-  s.version          = '0.1.10'
+  s.version          = '0.1.11'
   s.summary          = 'SJTBKit.'
 
 # This description is used to generate tags and improve search results.
@@ -63,6 +63,7 @@ end
 s.subspec 'NET' do |net|
      net.prefix_header_file = 'SJTBKit/CoreClass/Net/SJTBKitNet.h'
      net.source_files = 'SJTBKit/CoreClass/Net/**/**/*'
+     net.public_header_files = 'SJTBKit/CoreClass/Net/**/*.h'
 end
 
 
