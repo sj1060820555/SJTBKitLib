@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SJTBKit'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'SJTBKit.'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.ios.deployment_target = '8.0'
 
-  //s.source_files = 'SJTBKit/Classes/**/*'
+#s.source_files = 'SJTBKit/Classes/**/*'
 
     s.default_subspec = 'CoreClss'
 
